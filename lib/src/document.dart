@@ -14,6 +14,9 @@ class PDFDocument {
   final _pages = <PDFPage>[];
   bool _preloaded = false;
 
+  /// expose file path for pdf sharing capabilities
+  String? get filePath => _filePath;
+
   /// Load a PDF File from a given File
   /// [File file], file to be loaded
   ///
