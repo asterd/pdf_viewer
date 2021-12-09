@@ -1,7 +1,8 @@
-import 'dart:io';
+import 'dart:io' show File;
+
 import 'package:advance_pdf_viewer/src/zoomable_widget.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter/painting.dart';
+import 'package:flutter/widgets.dart';
 
 /// A class to represent PDF page
 /// [imgPath], path of the image (pdf page)
